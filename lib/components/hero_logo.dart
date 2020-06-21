@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class HeroLogo extends StatelessWidget {
-  double height;
-  Color color;
+  final double height;
+  final Color color;
 
   HeroLogo({@required this.height, this.color = PrimaryColor});
 
